@@ -58,12 +58,11 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h1 class="text-white font-weight-bold">OpenHoldem</h1>
+          <h1 class="text-white font-weight-bold">Learning in Sparse Reward and Imperfect Information Games</h1>
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5"> A Benchmark for Large-Scale
-            Imperfect-Information Game Research</p>
+          <p class="text-white-75 font-weight-light mb-5">Junliang Xing, Kai Li</p>
         </div>
       </div>
     </div>
@@ -77,39 +76,15 @@
       <div class="row">
         <div class="col-lg-12">
         <p>
-            Owning to the unremitting efforts by a few institutes, great progress has recently been made in designing superhuman AIs in No-limit Texas Hold’em (NLTH), the primary testbed for largescale imperfect-information game research. 
-            However, it remains very challenging for new researchers to study this problem since there lacks standard benchmarks for comparing with existing methods, which greatly hinders further developments in this research area. 
-            In this work, we present CasiaHoldem, a benchmark for large-scale imperfectinformation game research using NLTH. CasiaHoldem makes three main contributions to this research direction: <br /> 
-            <ul>
-              <li>
-                  a standardized evaluation protocol for
-                  thoroughly evaluating different NLTH AIs;
-              </li>
-              <li>
-                  three publicly available strong baselines for NLTH AI;
-              </li>
-              <li>
-                  an online testing platform with easy-to-use APIs for public NLTH AI evaluation.
-              </li>
-            </ul>
-            We hope CasiaHoldem will facilitate further studies on the
-            unsolved theoretical and computational issues in
-            this area, and cultivate important research problems
-            like opponent modeling and sub-optimal opponent
-            exploiting. 
+          In recent years, many breakthroughs have been made in artificial intelligence, from playing Atari games to learning complex robotic manipulation tasks. However, an agent still faces challenges from sparse reward and imperfect information in many real-world scenarios. Sparse reward refers to a reward function that is zero in most of its domain and only gives positive values to very few states. It is difficult for an agent to learn effective policies in sparse reward games since it will not get any feedback about whether its instantaneous actions are good or bad. Moreover, the presence of imperfect information in games, where an agent does not fully know the state of the world, makes learning more difficult since learning in such imperfect information games requires reasoning under uncertainty about other agents’ private information. 
+          This tutorial will focus on commonly used approaches for learning in sparse reward and imperfect information games. The first part of the tutorial will discuss learning in sparse reward games, in which we will cover prediction error-based, novelty-based, and information gain-based methods. We will also introduce the latest results of our research group, such as self-navigation-based, potential-based, and influence-based learning algorithms. The second part of the tutorial will focus on learning in imperfect information games. We will first introduce the formal definition of imperfect information games. Then we will discuss regret-based (CFR) and population-based methods (PSRO) to learn fixed optimal worst-case policies. Finally, we will introduce opponent modeling-based methods to learn adaptive policies. We will also discuss the unsolved problems and the directions for future research. We hope this tutorial inspires and motivates attendees to continue learning and contributing to the current development in this field.
+          
         </p>
-        <img class="img-fluid col-lg-8 offset-lg-2" src="img/open.png" alt="">
       </div>
     </div>
   </section>
 
-  <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white" id="demo">
-    <div class="container text-center">
-      <h2 class="mb-4">Download demo and Try OpenHoldem </h2>
-      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
-    </div>
-  </section>
+
 
  <!-- Contact Section -->
  <section class="page-section" id="contact">
@@ -125,7 +100,7 @@
         <div class="col-lg-4 mr-auto text-center offset-lg-4">
           <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
           <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" >openholdem@outlook.com</a>
+          <a class="d-block" >jlxing@nlpr.ia.ac.cn</a>
         </div>
       </div>
     </div>
@@ -134,7 +109,7 @@
   <!-- Footer -->
   <footer class="bg-light py-5">
     <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; OpenHoldem Team</div>
+      <div class="small text-center text-muted">Copyright &copy; GML Team</div>
     </div>
   </footer>
 
